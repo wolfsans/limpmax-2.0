@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LIMPMAX</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" width="100" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="jumbotron text-center">
+  <h1 class="display-4">LIMPMAX</h1>
+  <p class="lead">Seu carro como novo, sempre!</p>
+  <hr class="my-4">
+  <p>Mais informações sobre nossa empresa.</p>
+  <a class="btn btn-primary btn-lg" href="sobre.html" role="button">Sobre Nós</a>
+</div>
+
+
+
+
+<style>
+  #carousel-container {
+      max-width: 70%; /* Define a largura máxima para o carrossel */
+      margin: auto;   /* Centraliza o carrossel */
+  }
+
+  .custom-caption {
+      background-color: rgba(0, 0, 0, 0.6); /* Preto com 60% de opacidade */
+      padding: 10px;
+      border-radius: 5px;
+  }
+</style>
+
+<section id="destaque" class="mt-4">
+  <div id="carousel-container"> 
+    <div id="carouselExampleIndicatorsCombined" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Primeira Imagem do Carrossel -->
+        <div class="carousel-item active">
+          <a href="higienizaçao interna.html">
+            <img class="d-block w-100" src="IMAGEM1.jpg" alt="Serviço 1">
+          </a>
+          <div class="carousel-caption d-none d-md-block custom-caption" style="color: #FFFFFF;"> 
+            <h5>Higienização interna: é um processo de limpeza bem detalhista, que remove sujeiras quase imperceptíveis, bem como fungos, ácaros e bactérias que possam existir nos bancos, estofamentos ou outras partes internas do automóvel.</h5>
+          </div>
+        </div>
+        <!-- Segunda Imagem do Carrossel -->
+        <div class="carousel-item">
+          <a href="couro.html">
+            <img class="d-block w-100" src="IMAGEM2.jpg" alt="Serviço 2">
+          </a>
+          <div class="carousel-caption d-none d-md-block custom-caption" style="color: #FFFFFF;"> 
+            <h5>Hidratação de bancos de couro: A hidratação é recomendada para restaurar a cor e o PH originais do couro e desengordurá-lo, sem tornar o banco escorregadio. </h5>
+          </div>
+        </div>
+        <!-- Terceira Imagem do Carrossel -->
+        <div class="carousel-item">
+          <a href="polimento farois.html">
+            <img class="d-block w-100" src="IMAGEM3.jpg" alt="Descrição do Serviço 3">
+          </a>
+          <div class="carousel-caption d-none d-md-block custom-caption" style="color: #FFFFFF;">
+            <h5>Polimento de faróis: O processo de polimento dos faróis consiste em remover a camada de verniz antigo, devolvendo o brilho à superfície e aumentando a visibilidade da iluminação. O polimento é uma medida eficaz para prolongar a vida útil dos faróis, além de torná-los mais esteticamente agradáveis e funcionais.</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicatorsCombined" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicatorsCombined" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="servicos" class="container mt-4">
+  <h2>Nossos Serviços</h2>
+  <div class="row">
+
+      <!-- Higienização interna -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="IMAGEM1.jpg" class="card-img-top" alt="Higienização interna">
+              <div class="card-body">
+                  <h5 class="card-title">Higienização interna</h5>
+                  <p class="card-text">Preço: R$100,00</p>
+                  <a href="higienizaçao interna orçamento.html" class="btn btn-primary">Solicitar orçamento</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Hidratação de bancos de couro -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="IMAGEM2.jpg" class="card-img-top" alt="Hidratação de bancos de couro">
+              <div class="card-body">
+                  <h5 class="card-title">Hidratação de bancos de couro</h5>
+                  <p class="card-text">Preço: R$420,00</p>
+                  <a href="couro orçamento.html" class="btn btn-primary">Solicitar orçamento</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Polimento de faróis -->
+      <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="IMAGEM3.jpg" class="card-img-top" alt="Polimento de faróis">
+              <div class="card-body">
+                  <h5 class="card-title">Polimento de faróis</h5>
+                  <p class="card-text">Preço: R$50,00</p>
+                  <a href="polimento farois orçamento.html" class="btn btn-primary">Solicitar orçamento</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+      <h2 class="mb-4">Depoimentos dos Clientes</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+
+         
+          <ol class="carousel-indicators">
+              <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+              <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+              <li data-target="#testimonialCarousel" data-slide-to="3"></li>
+              <li data-target="#testimonialCarousel" data-slide-to="4"></li>
+          </ol>
+
+      
+          <div class="carousel-inner">
+
+              
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-md-4">
+                          <img src="julia santos.avif" alt="Cliente 1" class="img-fluid rounded-circle mx-auto">
+                      </div>
+                      <div class="col-md-8">
+                          <p>"A LIMPMAX transformou meu ambiente! Agora, tudo brilha e cheira tão fresco!"</p>
+                          <footer class="blockquote-footer">Julia Santos</footer>
+                      </div>
+                  </div>
+              </div>
+
+            
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="roberto alvarez.jpg" alt="Cliente 1" class="img-fluid rounded-circle mx-auto">
+                    </div>
+                    <div class="col-md-8">
+                        <p>"Nunca acreditei que meu carro poderia parecer novo de novo. Obrigado, LIMPMAX"</p>
+                        <footer class="blockquote-footer">Roberto Alvarez</footer>
+                    </div>
+                </div>
+            </div>
+              
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="livia martins.png" alt="Cliente 1" class="img-fluid rounded-circle mx-auto">
+                    </div>
+                    <div class="col-md-8">
+                        <p>"Confio na LIMPMAX para todos os meus serviços de limpeza. Eles nunca me decepcionam."</p>
+                        <footer class="blockquote-footer">Lívia Martins</footer>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="gustavo pereira.jpg" alt="Cliente 1" class="img-fluid rounded-circle mx-auto">
+                  </div>
+                  <div class="col-md-8">
+                      <p>"O atendimento ao cliente da LIMPMAX é excepcional. Eles se preocupam de verdade com as necessidades dos clientes."</p>
+                      <footer class="blockquote-footer">Gustavo Pereira</footer>
+                  </div>
+              </div>
+          </div>
+          
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="marina ribeiro.jpg" alt="Cliente 1" class="img-fluid rounded-circle mx-auto">
+                  </div>
+                  <div class="col-md-8">
+                      <p>"Tentei várias empresas de limpeza antes, mas nenhuma chegou perto da qualidade da LIMPMAX."</p>
+                      <footer class="blockquote-footer">Mariana Ribeiro</footer>
+                  </div>
+              </div>
+          </div>
+        
+
+          </div>
+
+        
+          <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+          </a>
+      </div>
+  </div>
+</section>
+<style>
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0); 
+    border-radius: 60%; 
+    padding: 10px;}
+</style>
+
+
+<section class="bg-light py-5">
+  <div class="container">
+      <h2 class="mb-4">Contato</h2>
+      <div class="row">
+          <div class="col-md-6">
+              <form action="#" method="post">
+                  <div class="form-group">
+                      <label for="contactName">Nome:</label>
+                      <input type="text" class="form-control" id="contactName" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="contactEmail">Email:</label>
+                      <input type="email" class="form-control" id="contactEmail" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="contactMessage">Mensagem:</label>
+                      <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>
+
+      <div class="mt-5">
+          <h3>Informações de Contato:</h3>
+          <p><strong>Nome da Empresa:</strong> LIMPMAX</p>
+          <p><strong>Email:</strong> luizlise2016@gmail.com</p>
+          <p><strong>Telefone:</strong> (49) 98916-5112</p>
+          <p><strong>Whatsapp:</strong> (49) 98916-5112</p>
+          <h4>Redes Sociais:</h4>
+          <a href="https://www.facebook.com/LIMPMAX" target="_blank">Facebook</a> |
+          <a href="https://www.instagram.com/LIMPMAX" target="_blank">Instagram</a> |
+          <a href="https://twitter.com/LIMPMAX" target="_blank">Twitter</a> |
+          <a href="https://wa.me/49989165112" target="_blank">Whatsapp</a>
+      </div>
+  </div>
+</section>
+    <section id="contato" class="container mt-5">
+    <h2>Contato e Localização</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Endereço:</h4>
+            <address>
+                Rua 86, 66 <br>
+                Parque Das Flores, Itá - Santa Catarina<br>
+                CEP: 89760-000
+            </address>
+        </div>
+
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4802.247519300235!2d-52.326891299202266!3d-27.280553396299585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1694328491875!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    </section>
+
+
+<div class="container">
+  <table class="table table-bordered table-sm">
+      <thead class="thead-dark">
+          <tr>
+              <th colspan="2">Horário de Funcionamento</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Segunda-feira</td>
+              <td>09:00 - 18:00</td>
+          </tr>
+          <tr>
+              <td>Terça-feira</td>
+              <td>09:00 - 18:00</td>
+          </tr>
+          <tr>
+              <td>Quarta-feira</td>
+              <td>09:00 - 18:00</td>
+          </tr>
+          <tr>
+              <td>Quinta-feira</td>
+              <td>09:00 - 18:00</td>
+          </tr>
+          <tr>
+              <td>Sexta-feira</td>
+              <td>09:00 - 18:00</td>
+          </tr>
+          <tr>
+              <td>Sábado</td>
+              <td>09:00 - 12:00</td>
+          </tr>
+          <tr>
+              <td>Domingo</td>
+              <td>Fechado</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+
+<footer class="text-center mt-5 py-4 bg-dark text-white">
+  Desenvolvido por Luiz Augusto Lise
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

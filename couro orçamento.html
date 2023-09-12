@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LIMPMAX</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" width="100" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Solicitar Orçamento - Hidratação de bancos de couros</h1>
+    <p>A hidratação é recomendada para restaurar a cor e o PH originais do couro e desengordurá-lo, sem tornar o banco escorregadio.</p>
+    
+    <form>
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" class="form-control" id="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Endereço:</label>
+            <input type="text" class="form-control" id="address" required>
+        </div>
+        <div class="form-group">
+            <label for="city">Cidade:</label>
+            <input type="text" class="form-control" id="city" required>
+        </div>
+        <div class="form-group">
+            <label for="state">UF:</label>
+            <select class="form-control" id="state">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="date">Data desejada para a realização do serviço:</label>
+            <input type="date" class="form-control" id="date" required>
+        </div>
+        <div class="form-group">
+            <label for="observations">Observações:</label>
+            <textarea class="form-control" id="observations" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<footer class="text-center mt-5 py-4">
+    Desenvolvido por Luiz Augusto Lise
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
